@@ -1,5 +1,5 @@
 image:
-  repository: ghcr.io/matheusbarros23/hello-world-rails
+  repository: ghcr.io/learning-mprb/hello-world-rails
   tag: latest
   pullPolicy: Always
 
