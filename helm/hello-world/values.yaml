@@ -2,7 +2,9 @@ image:
   repository: ghcr.io/learning-mprb/hello-world-rails
   tag: latest
   pullPolicy: Always
-
+imagePullSecrets:
+  - name: ghcr-secret
+  
 replicaCount: 2
 
 service:
